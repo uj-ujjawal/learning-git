@@ -1,3 +1,4 @@
+
 h1{
   color:green
 }
@@ -5,7 +6,9 @@ body{
   background-color: black;
   color:aliceblue;
 }
-
+a{
+  color:white;
+}
 .right{
   float:right;
 }
