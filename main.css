@@ -1,8 +1,19 @@
+*{
+  margin: 5px;
+  padding: 0;
+}
 
+header{
+  text-align: center;
+}
+header h2{
+  text-align: left;
+}
 h1{
   color:green
 }
 body{
+  font: 18px 'Courier New', Courier, monospace;
   background-color: black;
   color:aliceblue;
 }
@@ -11,4 +22,13 @@ a{
 }
 .right{
   float:right;
+}
+
+nav{
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover{
+  color:lightcoral;
 }
