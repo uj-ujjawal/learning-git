@@ -25,4 +25,4 @@ Note: Be aware that rewriting Git history can cause problems if other people hav
 
 Thanks 
 
-## testing verified commit 
+## testing verified commi
