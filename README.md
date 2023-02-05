@@ -25,4 +25,38 @@ Note: Be aware that rewriting Git history can cause problems if other people hav
 
 Thanks 
 
-## testing verified commi
+## verified commit
+
+install  gpg tool 
+after instaling add this to the path (linux/mac)
+`export GPG_TTY=$(tty)` and/or add that to your ~/.bashrc or ˜/.bash_profile
+
+Now 
+run `gpg --full-generate-key`
+
+choose the following option
+1
+4096
+Default (just press enter)
+Fill the personal detail likes
+Name
+Email id
+comment (if you want otherwise just press enter)
+Then Secure your gpg key with passpharse
+
+After that run 
+`gpg --list-secret-keys --keyid-format=long`
+`[gpg --armor --export [3AA5C34371567BD2]` Your case it will be different
+
+Then Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and ending with -----END PGP PUBLIC KEY BLOCK-----
+
+Resource: https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+
+
+
+### For troubleshooting, two things to first try:
+
+    run gpg --version, and make sure you have GnuPG version 2+ (not version 1) installed
+    run echo "test" | gpg --clearsign, to make sure gpg itself is working
+
+
