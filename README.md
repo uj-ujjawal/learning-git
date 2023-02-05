@@ -23,4 +23,6 @@ Force push the updated branch to the remote repository using "git push -f".
 Note: Be aware that rewriting Git history can cause problems if other people have already pulled the commits you're rewriting. So, use caution when using this method and make sure to coordinate with others on your team before proceeding.
 
 
-thanks
+Thanks 
+
+## testing verified commit 
