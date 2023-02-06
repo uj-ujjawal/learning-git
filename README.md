@@ -13,10 +13,10 @@ Here's how to do it:
 
 Clone the repository locally if you haven't already done so.
 Checkout the branch that contains the commit you want to modify.
-Use the command "git rebase -i HEAD~n" where n is the number of commits you want to go back.
+Use the command `git rebase -i HEAD~n` where n is the number of commits you want to go back.
 In the editor that opens, find the line with the commit you want to edit and change "pick" to "edit".
 Save and close the editor.
-Use the command "git commit --amend" to edit the commit message.
+Use the command `git commit --amend` to edit the commit message.
 Use the command "git rebase --continue" to continue the rebase process.
 Force push the updated branch to the remote repository using "git push -f".
 
