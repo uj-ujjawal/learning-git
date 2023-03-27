@@ -71,3 +71,5 @@ Resource: https://docs.github.com/en/authentication/managing-commit-signature-ve
 cheking commit again with fresh setup 
 chking keys is added or not
 
+enforce to commit with sign
+
