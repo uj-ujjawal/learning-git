@@ -59,4 +59,14 @@ Resource: https://docs.github.com/en/authentication/managing-commit-signature-ve
     run gpg --version, and make sure you have GnuPG version 2+ (not version 1) installed
     run echo "test" | gpg --clearsign, to make sure gpg itself is working
 
+## verified commit with ssh
+
+`ls -al ~/.ssh` to check existing ssh keys if it says doesn't exist means you don't have any keyes
+
+#### lets start with new->
+
+`ssh-keygen -t ed25519 -C "your_email@example.com"` replace email with your github email
+`eval "$(ssh-agent -s)"` it will start ssh in background 
+
+
 
