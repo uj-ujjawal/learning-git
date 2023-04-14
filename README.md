@@ -75,7 +75,6 @@ chking keys is added or not
 
 enforce to commit with sign
 
+-- rough part
 
--- rough part 
-
-just tesing my commit to windows.
+just testing my commit to windows.
