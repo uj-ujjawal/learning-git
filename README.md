@@ -74,3 +74,8 @@ cheking commit again with fresh setup
 chking keys is added or not
 
 enforce to commit with sign
+
+
+-- rough part 
+
+just tesing my commit to windows.
