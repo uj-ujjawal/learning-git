@@ -69,15 +69,3 @@ Resource: <https://docs.github.com/en/authentication/managing-commit-signature-v
 `ssh-keygen -t ed25519 -C "your_email@example.com"` replace email with your github email
 
 `eval "$(ssh-agent -s)"` it will start ssh in background
-
-cheking commit again with fresh setup
-chking keys is added or not
-
-enforce to commit with sign
-
--- rough part
-
-just testing my commit to windows.-- failed
-testing again --
-testing again with fresh setup
-testing github setup...
