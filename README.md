@@ -69,3 +69,7 @@ Resource: <https://docs.github.com/en/authentication/managing-commit-signature-v
 `ssh-keygen -t ed25519 -C "your_email@example.com"` replace email with your github email
 
 `eval "$(ssh-agent -s)"` it will start ssh in background
+
+## Testing Start
+
+SSH Testing phase 1.
