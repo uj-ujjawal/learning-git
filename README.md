@@ -73,3 +73,6 @@ Resource: <https://docs.github.com/en/authentication/managing-commit-signature-v
 ## Testing Start
 
 SSH Testing phase 1.
+CHECKING SIGNING COMMIT
+SSH Testing phase 2.
+CHECKING SIGNING COMMIT
