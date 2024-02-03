@@ -75,3 +75,5 @@ Resource: <https://docs.github.com/en/authentication/managing-commit-signature-v
 ALL CHECKED
 
 ## Testing case 2
+
+## Testing case 3
