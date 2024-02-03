@@ -77,3 +77,5 @@ ALL CHECKED
 ## Testing case 2
 
 ## Testing case 3
+
+## Testing case 4 default sign commit
