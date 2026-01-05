@@ -1,7 +1,9 @@
 # Leraning git
 
-Chekcing verified status of git 
+Chekcing verified status of git
 test 1
 
-testing auto signing commit 
+testing auto signing commit
 test 2
+
+text 3
